@@ -9,7 +9,7 @@ const port = 3000;
 // Initialisation de express
 const app = express();
 
-// Utilisation de body-parser comme middleware
+// Utilisation de body-parser comme middleware afin d'exploiter les fichiers JSON envoyé (POST) à notre API
 app.use(bodyParser.json()); // Pour le parsage des données JSON
 app.use(bodyParser.urlencoded({ extended: true })); // Pour le parsage des données URL-encoded
 

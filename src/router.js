@@ -10,7 +10,7 @@ const router = express.Router();
 // ROUTES PUBLIC
 // Routes homepage
 router.get('/', (req, res) => {
-    res.send("Bienvenue sur la page d'accueil");
+    res.send("Bienvenue sur la page d'accueil géré depuis le router");
 });
 
 
@@ -22,3 +22,5 @@ router.get('/', (req, res) => {
 // Routes Projets
 
 // Routes Technos / Langages
+
+module.exports = router;
